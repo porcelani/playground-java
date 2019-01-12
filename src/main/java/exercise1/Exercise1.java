@@ -1,6 +1,6 @@
-package algorithm1;
+package exercise1;
 
-public class Algorithm1 {
+public class Exercise1 {
 
 
     public static final int MAX_NUMBER_OF_ELEMENTS_TO_RETURN = 6;
@@ -10,7 +10,7 @@ public class Algorithm1 {
     private Number b;
 
 
-    public Algorithm1(Integer a, Integer b) {
+    public Exercise1(Integer a, Integer b) {
         this.a = new Number(a);
         this.b = new Number(b);
     }

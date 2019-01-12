@@ -1,4 +1,4 @@
-package algorithm2;
+package exercise2;
 
 public class BinaryTree {
     int valor;

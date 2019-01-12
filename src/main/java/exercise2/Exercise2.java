@@ -1,14 +1,14 @@
-package algorithm2;
+package exercise2;
 
 import java.util.LinkedList;
 
-public class Algorithm2 {
+public class Exercise2 {
 
     LinkedList<BinaryTree> fifo = new LinkedList<BinaryTree>();
     private int value = 0;
 
 
-    public Algorithm2(BinaryTree binaryTree) {
+    public Exercise2(BinaryTree binaryTree) {
         fifo.add(binaryTree);
     }
 

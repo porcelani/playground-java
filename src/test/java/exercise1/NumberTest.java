@@ -1,8 +1,8 @@
-package algorithm1;
+package exercise1;
 
 import org.junit.Test;
 
-import static algorithm1.Number.EMPTY;
+import static exercise1.Number.EMPTY;
 import static org.junit.Assert.*;
 
 public class NumberTest {

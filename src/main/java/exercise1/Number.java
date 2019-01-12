@@ -1,4 +1,4 @@
-package algorithm1;
+package exercise1;
 
 import static java.lang.String.valueOf;
 
