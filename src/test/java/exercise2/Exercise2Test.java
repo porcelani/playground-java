@@ -1,4 +1,4 @@
-package algorithm2;
+package exercise2;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -6,7 +6,7 @@ import org.junit.Test;
 
 import static java.lang.Integer.valueOf;
 
-public class Algorithm2Test {
+public class Exercise2Test {
 
     private BinaryTree a;
     private BinaryTree b;
@@ -40,9 +40,9 @@ public class Algorithm2Test {
     public void shouldSumSmallTree() {
         a.left = b;
 
-        Algorithm2 algorithm2 = new Algorithm2(a);
+        Exercise2 exercise2 = new Exercise2(a);
 
-        Integer integer = algorithm2.sumTree();
+        Integer integer = exercise2.sumTree();
         Assert.assertEquals(valueOf(2), integer);
     }
 
@@ -56,9 +56,9 @@ public class Algorithm2Test {
 
         e.left=f;
 
-        Algorithm2 algorithm2 = new Algorithm2(a);
+        Exercise2 exercise2 = new Exercise2(a);
 
-        Integer integer = algorithm2.sumTree();
+        Integer integer = exercise2.sumTree();
         Assert.assertEquals(valueOf(6), integer);
     }
 }
